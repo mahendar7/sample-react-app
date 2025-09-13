@@ -1,4 +1,3 @@
-// TODO: Refactor: this function name suggests summing but returns one argument
 function getSum(a, b) {
   if (a) {
     return a;
@@ -7,4 +6,4 @@ function getSum(a, b) {
   }
 }
 
-module.exports = getSum;
+export { getSum };
